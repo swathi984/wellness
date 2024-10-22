@@ -1,0 +1,236 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #98c1a2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Header Section */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #f0f0f0;
+}
+.header .logo {
+    float: left;
+}
+.header .nav {
+    float: right;
+}
+.header .nav a {
+    margin-left: 20px;
+    color: #333;
+}
+.tagline {
+    clear: both;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #33333;
+    padding: 10px 0;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 500px;
+    background: url('well2.png') no-repeat center center/cover;
+    text-align: center;
+    color: #33333;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 150px;
+}
+.hero .btn {
+    margin-top: 20px;
+    color:#33333
+}
+
+/* About Us Section */
+.about {
+    background-image: url('abo.jpg'); /* Replace with the actual path to your background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Make the background image cover the entire section */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
+    color: black; /* Change text color to white for contrast */
+    padding: 100px 0; /* Adjust padding to ensure content is well-spaced */
+    text-align: center;
+}
+.about .content {
+    display: flex;
+}
+.about img {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 10px;
+    color: black;
+}
+.about .text {
+    flex: 1;
+    padding-left: 50px;
+    color: black;
+}
+.about h2 {
+    color: #98c1a2;
+}
+.about-image {
+    max-width: 100%; /* Ensure image scales properly on smaller screens */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect to the image */
+    margin: 20px 0;  /* Adds spacing around the image */
+/* Products Section */
+}
+.services {
+    background-image: url('abo.jpg'); /* Replace with the actual path to your products background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling (optional) */
+    color: black; /* Set text color to black for contrast */
+    padding: 100px 0;
+    text-align: center;
+}
+.contact {
+    background-image: url('abo.jpg'); /* Replace with the actual path to your products background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling (optional) */
+    color: black; /* Set text color to black for contrast */
+    padding: 100px 0;
+    text-align: center;
+}
+.products {
+    background-image: url('abo.jpg'); /* Replace with the actual path to your products background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling (optional) */
+    color: black; /* Set text color to black for contrast */
+    padding: 100px 0;
+    text-align: center;
+}
+.footer {
+    background-color: #3CB371;
+    padding: 100px 0;
+    text-align: center;
+    color: black;
+}
+.products {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+.products h2 {
+    color: #98c1a2;
+}
+.products .product-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.products .card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.products .card img {
+    border-radius: 10px;
+}
+.products .card h3 {
+    color: #98c1a2;
+    margin-top: 15px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e8f5e9;
+    padding: 50px 0;
+    text-align: center;
+}
+.testimonials h2 {
+    color: #98c1a2;
+}
+.testimonials .testimonial {
+    margin: 30px auto;
+    max-width: 60%;
+    color: #555;
+    font-style: italic;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.why-choose .content {
+    display: flex;
+}
+.why-choose img {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 10px;
+}
+.why-choose .text {
+    flex: 1;
+    padding-left: 50px;
+}
+.why-choose h2 {
+    color: #98c1a2;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #98c1a2;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+.cta .btn {
+    background-color: #fff;
+    color: #98c1a2;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    color: #98c1a2;
+}
+
